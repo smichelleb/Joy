@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0F34432A71739400FCDF1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6A24B2A716F040000D6AE /* ContentView.swift */; };
+		BDB6A24A2A716F040000D6AE /* JoyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6A2492A716F040000D6AE /* JoyApp.swift */; };
+		BDB6A24E2A716F050000D6AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB6A24D2A716F050000D6AE /* Assets.xcassets */; };
+		BDB6A2512A716F050000D6AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB6A2502A716F050000D6AE /* Preview Assets.xcassets */; };
+		BDB6A25B2A716F050000D6AE /* JoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6A25A2A716F050000D6AE /* JoyTests.swift */; };
+		BDB6A2652A716F050000D6AE /* JoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6A2642A716F050000D6AE /* JoyUITests.swift */; };
+		BDB6A2672A716F050000D6AE /* JoyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6A2662A716F050000D6AE /* JoyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB6A2572A716F050000D6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB6A23E2A716F040000D6AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB6A2452A716F040000D6AE;
+			remoteInfo = Joy;
+		};
+		BDB6A2612A716F050000D6AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB6A23E2A716F040000D6AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB6A2452A716F040000D6AE;
+			remoteInfo = Joy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB6A2462A716F040000D6AE /* Joy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB6A2492A716F040000D6AE /* JoyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyApp.swift; sourceTree = "<group>"; };
+		BDB6A24B2A716F040000D6AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BDB6A24D2A716F050000D6AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB6A2502A716F050000D6AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDB6A2562A716F050000D6AE /* JoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB6A25A2A716F050000D6AE /* JoyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyTests.swift; sourceTree = "<group>"; };
+		BDB6A2602A716F050000D6AE /* JoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB6A2642A716F050000D6AE /* JoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyUITests.swift; sourceTree = "<group>"; };
+		BDB6A2662A716F050000D6AE /* JoyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB6A2432A716F040000D6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6A2532A716F050000D6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6A25D2A716F050000D6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB6A23D2A716F040000D6AE = {
+			isa = PBXGroup;
+			children = (
+				BDB6A2482A716F040000D6AE /* Joy */,
+				BDB6A2592A716F050000D6AE /* JoyTests */,
+				BDB6A2632A716F050000D6AE /* JoyUITests */,
+				BDB6A2472A716F040000D6AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB6A2472A716F040000D6AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6A2462A716F040000D6AE /* Joy.app */,
+				BDB6A2562A716F050000D6AE /* JoyTests.xctest */,
+				BDB6A2602A716F050000D6AE /* JoyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB6A2482A716F040000D6AE /* Joy */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6A2492A716F040000D6AE /* JoyApp.swift */,
+				BDB6A24B2A716F040000D6AE /* ContentView.swift */,
+				BDB6A24D2A716F050000D6AE /* Assets.xcassets */,
+				BDB6A24F2A716F050000D6AE /* Preview Content */,
+			);
+			path = Joy;
+			sourceTree = "<group>";
+		};
+		BDB6A24F2A716F050000D6AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6A2502A716F050000D6AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDB6A2592A716F050000D6AE /* JoyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6A25A2A716F050000D6AE /* JoyTests.swift */,
+			);
+			path = JoyTests;
+			sourceTree = "<group>";
+		};
+		BDB6A2632A716F050000D6AE /* JoyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6A2642A716F050000D6AE /* JoyUITests.swift */,
+				BDB6A2662A716F050000D6AE /* JoyUITestsLaunchTests.swift */,
+			);
+			path = JoyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB6A2452A716F040000D6AE /* Joy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB6A26A2A716F050000D6AE /* Build configuration list for PBXNativeTarget "Joy" */;
+			buildPhases = (
+				BDB6A2422A716F040000D6AE /* Sources */,
+				BDB6A2432A716F040000D6AE /* Frameworks */,
+				BDB6A2442A716F040000D6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Joy;
+			productName = Joy;
+			productReference = BDB6A2462A716F040000D6AE /* Joy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB6A2552A716F050000D6AE /* JoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB6A26D2A716F050000D6AE /* Build configuration list for PBXNativeTarget "JoyTests" */;
+			buildPhases = (
+				BDB6A2522A716F050000D6AE /* Sources */,
+				BDB6A2532A716F050000D6AE /* Frameworks */,
+				BDB6A2542A716F050000D6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB6A2582A716F050000D6AE /* PBXTargetDependency */,
+			);
+			name = JoyTests;
+			productName = JoyTests;
+			productReference = BDB6A2562A716F050000D6AE /* JoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB6A25F2A716F050000D6AE /* JoyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB6A2702A716F050000D6AE /* Build configuration list for PBXNativeTarget "JoyUITests" */;
+			buildPhases = (
+				BDB6A25C2A716F050000D6AE /* Sources */,
+				BDB6A25D2A716F050000D6AE /* Frameworks */,
+				BDB6A25E2A716F050000D6AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB6A2622A716F050000D6AE /* PBXTargetDependency */,
+			);
+			name = JoyUITests;
+			productName = JoyUITests;
+			productReference = BDB6A2602A716F050000D6AE /* JoyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB6A23E2A716F040000D6AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BDB6A2452A716F040000D6AE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BDB6A2552A716F050000D6AE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDB6A2452A716F040000D6AE;
+					};
+					BDB6A25F2A716F050000D6AE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BDB6A2452A716F040000D6AE;
+					};
+				};
+			};
+			buildConfigurationList = BDB6A2412A716F040000D6AE /* Build configuration list for PBXProject "Joy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB6A23D2A716F040000D6AE;
+			productRefGroup = BDB6A2472A716F040000D6AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB6A2452A716F040000D6AE /* Joy */,
+				BDB6A2552A716F050000D6AE /* JoyTests */,
+				BDB6A25F2A716F050000D6AE /* JoyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB6A2442A716F040000D6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB6A2512A716F050000D6AE /* Preview Assets.xcassets in Resources */,
+				BDB6A24E2A716F050000D6AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6A2542A716F050000D6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6A25E2A716F050000D6AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB6A2422A716F040000D6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0F34432A71739400FCDF1D /* ContentView.swift in Sources */,
+				BDB6A24A2A716F040000D6AE /* JoyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6A2522A716F050000D6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB6A25B2A716F050000D6AE /* JoyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6A25C2A716F050000D6AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB6A2652A716F050000D6AE /* JoyUITests.swift in Sources */,
+				BDB6A2672A716F050000D6AE /* JoyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB6A2582A716F050000D6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB6A2452A716F040000D6AE /* Joy */;
+			targetProxy = BDB6A2572A716F050000D6AE /* PBXContainerItemProxy */;
+		};
+		BDB6A2622A716F050000D6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB6A2452A716F040000D6AE /* Joy */;
+			targetProxy = BDB6A2612A716F050000D6AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BDB6A2682A716F050000D6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB6A2692A716F050000D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB6A26B2A716F050000D6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Joy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.Joy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB6A26C2A716F050000D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Joy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.Joy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDB6A26E2A716F050000D6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Joy";
+			};
+			name = Debug;
+		};
+		BDB6A26F2A716F050000D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Joy";
+			};
+			name = Release;
+		};
+		BDB6A2712A716F050000D6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Joy;
+			};
+			name = Debug;
+		};
+		BDB6A2722A716F050000D6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.JoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Joy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB6A2412A716F040000D6AE /* Build configuration list for PBXProject "Joy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB6A2682A716F050000D6AE /* Debug */,
+				BDB6A2692A716F050000D6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB6A26A2A716F050000D6AE /* Build configuration list for PBXNativeTarget "Joy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB6A26B2A716F050000D6AE /* Debug */,
+				BDB6A26C2A716F050000D6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB6A26D2A716F050000D6AE /* Build configuration list for PBXNativeTarget "JoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB6A26E2A716F050000D6AE /* Debug */,
+				BDB6A26F2A716F050000D6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB6A2702A716F050000D6AE /* Build configuration list for PBXNativeTarget "JoyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB6A2712A716F050000D6AE /* Debug */,
+				BDB6A2722A716F050000D6AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB6A23E2A716F040000D6AE /* Project object */;
+}
